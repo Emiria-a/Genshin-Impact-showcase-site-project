@@ -1,7 +1,8 @@
 
 /*---------------- Main --------------------*/
 main{
-    width: 100%;
+    width: 100vi;
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr;
 }
@@ -48,6 +49,17 @@ button:hover{
 /*---------------- Footer --------------------*/
 footer{
     width: 100%;
+    background-color: rgba(12, 12, 28, 0.8);
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
 }
 
 /*---------------- Responsive --------------------*/
